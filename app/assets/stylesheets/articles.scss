@@ -1,0 +1,85 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+@import "bootstrap/scss/bootstrap";
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: rgb(209, 209, 209);
+    margin: 0;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+
+.nav p{
+    margin: 0;
+    padding: 8px
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.container a{
+    text-decoration: none;
+    color: rgba(49, 124, 209, 0.835);
+}
+
+.container h2 a{
+    font-size: 28px;
+}
+
+li{
+    list-style: none;
+    font-weight: 200;
+}
+
+#wiki{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container-new{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.container-new input, textarea{
+    width: 100%;
+    padding: 8px;
+}
+
+.container-new textarea{
+     height: 200px;
+     resize: none;
+}
+
+.container-new .submit-btn{
+    width: 150px;
+    padding: 4px 8px;
+}
+
+.article-title{
+    margin: 16px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.493);
+}
+
+i.fas{
+    font-size: 20px;
+}
