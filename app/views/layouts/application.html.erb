@@ -17,8 +17,8 @@
 
   <body>
     <div class="nav">
-        <div><p id="wiki"><%= link_to "Wikinimous", articles_path %></p></div>
-        <div><p><%= link_to "New Article",  new_article_path %></p></div>
+        <div id="wiki"><%= link_to "Wikinimous", articles_path %></div>
+        <div><p><%= link_to "New Article",  new_article_path, class: "btn btn-primary" %></p></div>
     </div>
     <div class="container">
       <%= yield %>

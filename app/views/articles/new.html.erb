@@ -1,10 +1,8 @@
 <div class="container-new">
 <h2>Create an Article</h2><br>
 <%= simple_form_for(@article) do |f| %>
-    <%= f.label :title %><br>
-    <%= f.text_field :title %><br><br>
-    <%= f.label :content %><br>
-    <%= f.text_area :content %><br>
-    <%= f.submit class: 'submit-btn' %>
+    <%= f.input :title %><br>
+    <%= f.input :content %><br>
+    <%= f.submit "Post Article", class: "btn btn-primary" %>
 <% end %>
 </div>
